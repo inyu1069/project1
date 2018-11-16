@@ -1,0 +1,85 @@
+/*正文部分*/
+.container{
+	margin-top: 115px;
+}
+.about_title{
+	height: 60px;
+	font-size: 30px;
+	line-height: 54px;	
+	color: #311859;
+	background: url(../img/pen_line_long.png) no-repeat left 57px,url(../img/pen.png) no-repeat right bottom;
+}
+.content_one{
+    width: 535px;
+    height: 240px;
+    margin-top: 40px;
+    padding: 40px 0 0 20px;
+    box-sizing: border-box;
+    border: 1px solid transparent;    
+    float: left;
+    background-color: #fff;
+    position: relative;
+    cursor: pointer;
+}
+.content_one:nth-child(2n){
+    float: right;
+}
+.content_one img{
+    float: left;
+}
+.list_txt{
+    width: 220px;
+    margin-left: 20px;
+    float: left;
+}
+.list_txt h5{
+    font-size: 21px;
+    margin-top:15px ;
+    color: #7E7E80;
+}
+.list_txt h6{
+    font-size: 14px;
+    color: #8D8C8F;
+    line-height: 40px;
+    font-weight: normal;
+}
+.list_txt p{
+    font-size: 14px;
+    line-height: 20px;
+    color: #777779;
+}
+.watch{
+	color: #979797;
+	position: absolute;
+	right: 20px;
+	bottom: 15px;
+}
+.watch i{
+	margin-right: 5px;
+}
+.watch span{
+	margin-left: 15px;
+}
+
+.check_more{
+	margin-top: 50px;
+}
+.check_more img{
+	display: block;
+	margin: 20px auto 0;
+}
+.arrow_down{
+	width: 58px;
+	height: 58px;
+	cursor: pointer;
+	display: block;
+	margin: 20px auto 0;
+	background: url(../images/lis_more_btn_bg.png) no-repeat 0 -58px;
+}
+.arrow_down:hover{
+	background-position:0 0 ;
+}
+/*尾部*/
+.foot_main{
+	margin-top: 120px;
+}

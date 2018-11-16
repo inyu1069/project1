@@ -1,0 +1,386 @@
+body,html{
+	height:100%;
+	overflow: hidden;
+	font-family: '楷体';
+}
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+/*头部*/
+.header{
+	height: 50px;
+	width: 100%;
+	position:absolute;
+	left:0;
+	top:0;
+	z-index: 99;
+	background:url(../img/header_bg_01.png) no-repeat center top ;
+}
+.logo{
+	float: left;
+}
+.header ul{
+	float: left;
+}
+.header .logo{
+	margin: 0;
+}
+.header ul li{
+	
+	float: left;
+}
+.header_nav_a{
+	margin: 0 33px;
+	color: #CBC9CD;
+	line-height: 50px;
+	font-size: 18px;
+	display: inline-block;
+}
+.choose{
+	color: #fff;
+}
+.header_nav_a:hover{
+	color: #fff;
+}
+
+.container{
+	width:100%;
+	height:100%;
+	position:absolute;
+	left:0;
+	top:0;
+}
+.page{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+/*第一部分*/
+.page1{background:  #221236;}
+.banner{
+	width: 100%;
+	height: 847px;
+	color: #fff;
+	text-align: center;
+}
+.banner_icon{
+	padding-top: 50px;
+	margin-left: -45px;
+}
+.banner_title{
+	font-size: 36px;
+	font-weight: normal;
+}
+.banner p{
+	font-size: 19px;
+	line-height: 30px;
+}
+.banner_en{
+	font-size: 17px;
+	text-indent: -2em;
+	letter-spacing: 3px;
+}
+.banner h2{
+	font-size: 42px;
+	margin-top: 10px;
+	line-height: 80px;
+	margin-bottom: 10px;
+}
+.banner h2 img:nth-child(1){
+	vertical-align: top;
+}
+.banner h2 img:nth-child(2){
+	vertical-align: bottom;
+}
+.banner_arrow{
+	margin-top: 60px;
+}
+/*第二部分*/
+.page2{
+	position: relative;
+}
+.page2 ul{
+	width: 300%;
+	height: 100%;
+	transition: .4s;
+}
+.btn{
+	position: absolute;
+	width: 58px;
+	height: 58px;
+	top: 450px;
+}
+.btn_left{
+	left: 60px;
+	background: url(../img/掌学/goleft.png) no-repeat;
+}
+.btn_right{
+	right:60px ;
+	background: url(../img/掌学/goright.png) no-repeat;
+	background-position:-58px 0 ;
+}
+.page2 ul li{
+	width: 33.333333333%;
+	left: 100%;
+	float: left;
+}
+.page_title{
+	font-size: 42px;
+	margin-top: 100px;
+	line-height: 80px;
+	margin-bottom: 30px;
+	text-align: center;
+	color: #311859;
+}
+.page2_1 p{
+	text-indent: 2em;
+	width: 750px;
+	height: 90px;
+	margin: 0 auto;
+	line-height: 30px;
+	font-size: 22px;
+	color: #6B6A6F;
+	padding: 0 50px;
+	background: url(../img/掌学/yinhao2_zuo.png) no-repeat left top,url(../img/掌学/yinhao2_you.png) no-repeat right bottom;
+}
+.phone_box{
+	text-align: center;
+	margin-top: 50px;
+}
+.phone_box img{
+	margin: 20px;
+}
+
+.value_top{
+	margin: 150px 0 50px;
+	text-align: center;
+}
+.value_box{
+	margin: 40px 0 40px 225px;
+}
+.value_img{
+	float: left;
+}
+.value_txt{
+	float: left;
+	color:#6D7587 ;
+	margin: 25px 30px;
+}
+.value_txt h4{
+	font-size: 24px;
+	font-weight: normal;
+}
+.value_txt p{
+	font-size: 18px;
+	line-height: 24px;
+}
+
+.page2_3 h2{
+	font-size: 42px;
+	margin-top: 10px;
+	line-height: 80px;
+	margin-bottom: 10px;
+	text-align: center;
+	color: #17204C;
+}
+.page2_3 h2 img:nth-child(1){
+	vertical-align: top;
+}
+.page2_3 h2 img:nth-child(2){
+	vertical-align: bottom;
+}
+.page2_3 p{
+	font-size: 18px;
+	color:#989495;
+	width: 750px;
+	line-height: 28px;
+	margin: 50px auto;
+	text-indent: 2em;
+}
+.scroll{
+	text-align: center;
+}
+/*第三部分*/
+.page3{
+	background: #221236;
+}
+.page3 .page_title{
+	color: #fff;
+}
+.page3_main{
+	width: 970px;
+	height: 370px;
+	margin: 100px auto;
+	position: relative;
+}
+.page3_main img{
+	position: absolute;
+}
+.page3_main img:nth-child(1){
+	top: 0;
+	left: 0;
+}
+.page3_main img:nth-child(2){
+	top: 0;
+	right: 0;
+}
+.page3_main img:nth-child(3){
+	bottom: 0;
+	left: 0;
+}
+.page3_main img:nth-child(4){
+	bottom: 0;
+	right: 0;
+}
+.jiazhi_box{
+	margin: 25px 40px;
+	float: left;
+	width: 380px;
+	height: 75px;
+	color: #fff;
+}
+.jiazhi_box:nth-child(2n-1){
+	margin-left: 75px;
+}
+.jiazhi_no{
+	background: url(../img/掌学/jiazhi_quanquan.png) no-repeat;
+	width: 74px;
+	height: 74px;
+	text-align: center;
+	line-height: 74px;
+	font-size: 18px;
+	float: left;
+}
+.jiazhi_box p{
+	width: 280px;
+	line-height: 25px;
+	font-size: 17px;
+	float: left;
+	margin:20px 0 0 20px ;
+}
+/*第四部分*/
+.page4{
+	background: #F1F2F6;
+}
+.page4_main{
+	width: 885px;
+	margin: 50px auto;
+}
+.page4_main p{
+	border-bottom: 1px dashed #C5C5C9;
+	color: #848387;
+	line-height: 40px;
+	font-size: 16px;
+}
+.page4_main .first_p{
+	text-indent:2em ;
+}
+.page4_main .hidden{
+	/*visibility: hidden;*/
+	color: transparent;
+}
+.yun_click{
+	text-align: center;
+	margin: 25px 0;
+}
+.yun{
+	background: url(../img/掌学/xiaoniaoyun_btn.png) no-repeat;
+	width: 78px;
+	height: 8px;
+	display: inline-block;
+	margin: 0 5px;
+}
+.yun2{
+	background-position:center bottom; 
+}
+
+/*第五部分*/
+.page5{
+	background: url(../img/掌学/app&contacts_bg.gif) no-repeat center top;
+}
+.download{
+	font-family: "宋体";	
+}
+.code{
+	width: 375px;
+	height: 375px;
+	margin: 125px 0 0 115px;
+	position: relative;
+	float: left;
+}
+.code img{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.code span{
+	top: 0;
+	left: 80px;
+	position: absolute;
+	color: #fff;
+	font-size: 18px;
+}
+.page5 h1{
+	float: left;
+	font-size:42px ;
+	color: #fff;
+	font-weight: normal;
+	margin: 245px 0 0 87px;
+}
+.contact_box{
+	float: right;
+	margin-right: 90px;
+	width: 450px;
+}
+.contact_box h5{
+	font-size: 22px;
+	line-height: 60px;
+	width: 380px;
+	border-bottom: 1px dashed #E0E0E2;
+	position: relative;
+	margin-bottom: 15px;
+}
+.contact_box h5 i{
+	width: 6px;
+    height: 6px;
+    display: block;
+    background: url(../img/next&prev_now.png) no-repeat;
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+.contact_box p{
+	font-size: 17px;
+	line-height: 40px;
+}
+
+/*蓝色页面*/
+.blue{
+	width: 100%;
+	height: 100%;
+	background:#299AD6;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 999;
+	color: #fff;
+	/*display: none;*/
+}
+.blue_txt{
+	position: absolute;
+	opacity: 0;
+	top: 800px;
+	width: 513px;
+	left: 50%;
+	margin-left: -257px;
+}
+.blue_icon{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -200px;
+	margin-left: -200px;
+}
